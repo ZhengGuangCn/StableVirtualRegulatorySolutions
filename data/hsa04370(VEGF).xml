@@ -1,0 +1,606 @@
+<network>
+<layers>
+    <layer id="01" name="one">
+      <entry id="32-1">
+		<graphics name="VEGFA, MVCD1, VEGF, VPF" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="72" y="310" width="46" height="17"/>
+      </entry>
+    </layer>
+
+    <layer id="02" name="two">
+      <entry id="12-2">
+              <graphics name="KDR, CD309, FLK1, VEGFR, VEGFR2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="143" y="310" width="46" height="17"/>
+      </entry>
+    </layer>
+
+    <layer id="03" name="three">
+      <entry id="29-3">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-3">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-3">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-3">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="4-3">
+		<graphics name="CDC42, CDC42Hs, G25K, TKS" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="301" y="349" width="46" height="17"/>
+      </entry>
+      <entry id="13-3">
+		<graphics name="PLCG1, NCKAP3, PLC-II, PLC1, PLC148, PLCgamma1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="230" width="46" height="17"/>
+      </entry>
+      <entry id="23-3">
+		<graphics name="PIK3CA, CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="419" width="46" height="17"/>
+      </entry>
+      <entry id="30-3">
+		<graphics name="SRC, ASV, SRC1, THC6, c-SRC, p60-Src" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="199" y="386" width="46" height="17"/>
+      </entry>
+    </layer>
+
+    <layer id="04" name="four">
+      <entry id="29-4">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-4">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-4">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-4">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="27-4">
+		<graphics name="MAPK14, CSBP, CSBP1, CSBP2, CSPB1, EXIP, Mxi2, PRKM14, PRKM15, RK, SAPK2A, p38, p38ALPHA..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="398" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="100-4">
+		<graphics name="DAG" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="compound" x="398" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="101-4">
+		<graphics name="IP3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="compound" x="270" y="230" width="46" height="17"/>
+      </entry>
+      <entry id="23-4">
+		<graphics name="PIK3CA, CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="419" width="46" height="17"/>
+      </entry>
+    </layer>
+
+    <layer id="05" name="five">
+      <entry id="29-5">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-5">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-5">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-5">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="20-5">
+		<graphics name="MAPKAPK3, 3PK, MAPKAP-K3, MAPKAP3, MAPKAPK-3, MDPT3, MK-3..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="519" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="100-5">
+		<graphics name="DAG" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="compound" x="456" y="156" width="46" height="17"/>
+      </entry>
+      <entry id="104-5">
+		<graphics name="Ca2+" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="compound" x="270" y="230" width="46" height="17"/>
+      </entry>
+      <entry id="102-5">                  
+		<graphics name="PIP3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="compound" x="520" y="231" width="46" height="17"/>
+      </entry>
+    </layer>     
+
+    <layer id="06" name="six">
+      <entry id="29-6">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-6">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-6">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-6">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="19-6">
+		<graphics name="HSPB1, CMT2F, HEL-S-102, HMN2B, HS.76067, HSP27, HSP28, Hsp25, SRP27" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="628" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="25-6">
+		<graphics name="PRKCA, AAG6, PKC-alpha, PKCA, PKCI+/-, PKCalpha, PRKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="456" y="156" width="46" height="17"/>
+      </entry>
+      <entry id="21-6">
+              <graphics name="PPP3CA, ACCIID, CALN, CALNA, CALNA1, CCN1, CNA1, IECEE, IECEE1, PPP2B..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="520" y="231" width="46" height="17"/>
+      </entry>
+      <entry id="18-6">
+              <graphics name="PLA2G4B, HsT16992, cPLA2-beta..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="817" y="177" width="46" height="17"/>
+      </entry>
+      <entry id="104-6">
+		<graphics name="Ca2+" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="compound" x="270" y="230" width="46" height="17"/>
+      </entry>
+      <entry id="22-6">
+              <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="373" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="42-6">                  
+		<graphics name="RAC1, MIG5, MRD48, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="554" y="420" width="46" height="17"/>
+      </entry>
+    </layer>                                                                                         
+
+    <layer id="07" name="seven">
+      <entry id="29-7">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-7">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-7">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-7">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="19-7">
+		<graphics name="HSPB1, CMT2F, HEL-S-102, HMN2B, HS.76067, HSP27, HSP28, Hsp25, SRP27" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="628" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="14-7">
+		<graphics name="SPHK2, SK_2, SK-2, SPK_2, SPK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="506" y="117" width="46" height="17"/>
+      </entry>
+      <entry id="25-7">
+		<graphics name="PRKCA, AAG6, PKC-alpha, PKCA, PKCI+/-, PKCalpha, PRKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="456" y="156" width="46" height="17"/>
+      </entry>
+      <entry id="24-7">
+              <graphics name="NFATC2, NFAT1, NFATP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="603" y="231" width="46" height="17"/>
+      </entry>
+      <entry id="18-7">
+              <graphics name="PLA2G4B, HsT16992, cPLA2-beta..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="817" y="177" width="46" height="17"/>
+      </entry>
+      <entry id="39-7">                  
+		<graphics name="NOS3, ECNOS, eNOS" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="472" width="46" height="17"/>
+      </entry>
+      <entry id="40-7">                  
+		<graphics name="CASP9, APAF-3, APAF3, ICE-LAP6, MCH6, PPP1R56" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="511" width="46" height="17"/>
+      </entry>
+      <entry id="41-7">                  
+		<graphics name="BAD, BBC2, BCL2L8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="550" width="46" height="17"/>
+      </entry>
+      <entry id="42-7">                  
+		<graphics name="RAC1, MIG5, MRD48, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="554" y="420" width="46" height="17"/>
+      </entry>
+    </layer>      
+
+    <layer id="08" name="eight">
+      <entry id="29-8">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-8">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-8">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-8">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="19-8">
+		<graphics name="HSPB1, CMT2F, HEL-S-102, HMN2B, HS.76067, HSP27, HSP28, Hsp25, SRP27" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="628" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="38-8">
+		<graphics name="HRAS, C-BAS/HAS, C-H-RAS, C-HA-RAS1, CTLO, H-RASIDX, HAMSV, HRAS1, KRAS, KRAS2, Ki-Ras, RASH1, RASK2, c-K-ras, c-Ki-ras, p21ras..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="576" y="98" width="46" height="17"/>
+      </entry>
+      <entry id="25-8">
+		<graphics name="PRKCA, AAG6, PKC-alpha, PKCA, PKCI+/-, PKCalpha, PRKACA..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="456" y="156" width="46" height="17"/>
+      </entry>
+      <entry id="17-8">                  
+		<graphics name="PTGS2, COX-2, COX2, GRIPGHS, PGG/HS, PGHS-2, PHS-2, hCox-2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="749" y="231" width="46" height="17"/>
+      </entry>
+      <entry id="18-8">
+              <graphics name="PLA2G4B, HsT16992, cPLA2-beta..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="817" y="177" width="46" height="17"/>
+      </entry>
+      <entry id="39-8">                  
+		<graphics name="NOS3, ECNOS, eNOS" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="472" width="46" height="17"/>
+      </entry>
+      <entry id="40-8">                  
+		<graphics name="CASP9, APAF-3, APAF3, ICE-LAP6, MCH6, PPP1R56" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="511" width="46" height="17"/>
+      </entry>
+      <entry id="41-8">                  
+		<graphics name="BAD, BBC2, BCL2L8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="550" width="46" height="17"/>
+      </entry>
+      <entry id="42-8">                  
+		<graphics name="RAC1, MIG5, MRD48, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="554" y="420" width="46" height="17"/>
+      </entry>
+    </layer> 
+
+    <layer id="09" name="nine">
+      <entry id="29-9">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-9">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-9">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-9">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="19-9">
+		<graphics name="HSPB1, CMT2F, HEL-S-102, HMN2B, HS.76067, HSP27, HSP28, Hsp25, SRP27" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="628" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="37-9">
+              <graphics name="RAF1, CMD1NN, CRAF, NS5, Raf-1, c-Raf" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="653" y="109" width="46" height="17"/>
+      </entry>
+      <entry id="17-9">                  
+		<graphics name="PTGS2, COX-2, COX2, GRIPGHS, PGG/HS, PGHS-2, PHS-2, hCox-2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="749" y="231" width="46" height="17"/>
+      </entry>
+      <entry id="18-9">
+      <graphics name="PLA2G4B, HsT16992, cPLA2-beta..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="817" y="177" width="46" height="17"/>
+      </entry>
+      <entry id="39-9">                  
+		<graphics name="NOS3, ECNOS, eNOS" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="472" width="46" height="17"/>
+      </entry>
+      <entry id="40-9">                  
+		<graphics name="CASP9, APAF-3, APAF3, ICE-LAP6, MCH6, PPP1R56" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="511" width="46" height="17"/>
+      </entry>
+      <entry id="41-9">                  
+		<graphics name="BAD, BBC2, BCL2L8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="550" width="46" height="17"/>
+      </entry>
+      <entry id="42-9">                  
+		<graphics name="RAC1, MIG5, MRD48, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="554" y="420" width="46" height="17"/>
+      </entry>
+    </layer> 
+
+    <layer id="10" name="ten">
+      <entry id="29-10">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-10">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-10">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-10">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="19-10">
+		<graphics name="HSPB1, CMT2F, HEL-S-102, HMN2B, HS.76067, HSP27, HSP28, Hsp25, SRP27" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="628" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="36-10" >
+        <graphics name="MAP2K1, CFC3, MAPKK1, MEK1, MKK1, PRKMK1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="703" y="135" width="46" height="17"/>
+      </entry>
+      <entry id="17-10">                  
+		<graphics name="PTGS2, COX-2, COX2, GRIPGHS, PGG/HS, PGHS-2, PHS-2, hCox-2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="749" y="231" width="46" height="17"/>
+      </entry>
+      <entry id="18-10">
+              <graphics name="PLA2G4B, HsT16992, cPLA2-beta..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="817" y="177" width="46" height="17"/>
+      </entry>
+      <entry id="39-10">                  
+		<graphics name="NOS3, ECNOS, eNOS" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="472" width="46" height="17"/>
+      </entry>
+      <entry id="40-10">                  
+		<graphics name="CASP9, APAF-3, APAF3, ICE-LAP6, MCH6, PPP1R56" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="511" width="46" height="17"/>
+      </entry>
+      <entry id="41-10">                  
+		<graphics name="BAD, BBC2, BCL2L8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="550" width="46" height="17"/>
+      </entry>
+      <entry id="42-10">                  
+		<graphics name="RAC1, MIG5, MRD48, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="554" y="420" width="46" height="17"/>
+      </entry>
+    </layer> 
+
+    <layer id="11" name="eleven">
+      <entry id="29-11">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-11">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-11">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-11">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="19-11">
+		<graphics name="HSPB1, CMT2F, HEL-S-102, HMN2B, HS.76067, HSP27, HSP28, Hsp25, SRP27" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="628" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="35-11">
+              <graphics name="MAPK1, ERK, ERK-2, ERK2, ERT1, MAPK2, P42MAPK, PRKM1, PRKM2, p38, p40, p41, p41mapk, p42-MAPK..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="779" y="135" width="46" height="17"/>
+      </entry>
+      <entry id="17-11">                  
+		<graphics name="PTGS2, COX-2, COX2, GRIPGHS, PGG/HS, PGHS-2, PHS-2, hCox-2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="749" y="231" width="46" height="17"/>
+      </entry>
+      <entry id="18-11">
+              <graphics name="PLA2G4B, HsT16992, cPLA2-beta..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="817" y="177" width="46" height="17"/>
+      </entry>
+      <entry id="103-11">                  
+		<graphics name="NO" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="compound" x="491" y="472" width="46" height="17"/>
+      </entry>
+      <entry id="40-11">                  
+		<graphics name="CASP9, APAF-3, APAF3, ICE-LAP6, MCH6, PPP1R56" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="511" width="46" height="17"/>
+      </entry>
+      <entry id="41-11">                  
+		<graphics name="BAD, BBC2, BCL2L8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="550" width="46" height="17"/>
+      </entry>
+      <entry id="42-11">                  
+		<graphics name="RAC1, MIG5, MRD48, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="554" y="420" width="46" height="17"/>
+      </entry>
+    </layer> 
+    
+    <layer id="12" name="twelve">
+      <entry id="29-12">
+		<graphics name="SH2D2A, F2771, SCAP, TSAD, VRAP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="183" width="46" height="17"/>
+      </entry>
+      <entry id="31-12">
+		<graphics name="SHC2, SCK, SHCB, SLI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="270" y="264" width="46" height="17"/>
+      </entry>
+      <entry id="26-12">
+		<graphics name="PTK2, FADK, FAK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="28-12">
+		<graphics name="PXN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="518" y="321" width="46" height="17"/>
+      </entry>
+      <entry id="19-12">
+		<graphics name="HSPB1, CMT2F, HEL-S-102, HMN2B, HS.76067, HSP27, HSP28, Hsp25, SRP27" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="628" y="366" width="46" height="17"/>
+      </entry>
+      <entry id="18-12">
+              <graphics name="PLA2G4B, HsT16992, cPLA2-beta..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="817" y="177" width="46" height="17"/>
+      </entry>
+      <entry id="17-12">                  
+		<graphics name="PTGS2, COX-2, COX2, GRIPGHS, PGG/HS, PGHS-2, PHS-2, hCox-2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="749" y="231" width="46" height="17"/>
+      </entry>
+      <entry id="103-12">                  
+		<graphics name="NO" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="compound" x="491" y="472" width="46" height="17"/>
+      </entry>
+      <entry id="40-12">                  
+		<graphics name="CASP9, APAF-3, APAF3, ICE-LAP6, MCH6, PPP1R56" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="511" width="46" height="17"/>
+      </entry>
+      <entry id="41-12">                  
+		<graphics name="BAD, BBC2, BCL2L8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="491" y="550" width="46" height="17"/>
+      </entry>
+      <entry id="42-12">                  
+		<graphics name="RAC1, MIG5, MRD48, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="554" y="420" width="46" height="17"/>
+      </entry>
+    </layer> 
+</layers>
+
+<edges>
+    <edge from="32-1" to="12-2" subtype="activation"/>
+
+    <edge from="12-2" to="29-3" subtype ="activation"/>
+    <edge from="12-2" to="31-3" subtype ="activation"/>
+    <edge from="12-2" to="26-3" subtype ="activation"/>
+    <edge from="12-2" to="28-3" subtype ="activation"/>
+    <edge from="12-2" to="4-3" subtype ="activation"/>
+    <edge from="12-2" to="13-3" subtype ="activation"/>
+    <edge from="12-2" to="23-3" subtype ="activation"/>
+    <edge from="12-2" to="30-3" subtype ="activation"/>
+
+    <edge from="29-3" to="29-4" subtype ="equivalence"/>
+    <edge from="31-3" to="31-4" subtype ="equivalence"/>
+    <edge from="26-3" to="26-4" subtype ="equivalence"/>
+    <edge from="28-3" to="28-4" subtype ="equivalence"/>
+    <edge from="4-3" to="27-4" subtype ="activation"/>
+    <edge from="13-3" to="100-4" subtype ="activation"/>
+    <edge from="13-3" to="101-4" subtype ="activation"/>
+    <edge from="23-3" to="23-4" subtype ="equivalence"/>
+    <edge from="30-3" to="23-4" subtype ="activation"/>
+
+    <edge from="29-4" to="29-5" subtype ="equivalence"/>
+    <edge from="31-4" to="31-5" subtype ="equivalence"/>
+    <edge from="26-4" to="26-5" subtype ="equivalence"/>
+    <edge from="28-4" to="28-5" subtype ="equivalence"/>
+    <edge from="27-4" to="20-5" subtype ="activation"/>
+    <edge from="100-4" to="100-5" subtype ="equivalence"/>
+    <edge from="101-4" to="104-5" subtype ="indirect activation"/>
+    <edge from="23-4" to="102-5" subtype ="activation"/>
+
+    <edge from="29-5" to="29-6" subtype ="equivalence"/>
+    <edge from="31-5" to="31-6" subtype ="equivalence"/>
+    <edge from="26-5" to="26-6" subtype ="equivalence"/>
+    <edge from="28-5" to="28-6" subtype ="equivalence"/>
+    <edge from="20-5" to="19-6" subtype ="activation"/>
+    <edge from="100-5" to="25-6" subtype ="activation"/>
+    <edge from="104-5" to="25-6" subtype ="activation"/>
+    <edge from="104-5" to="21-6" subtype ="activation"/>
+    <edge from="104-5" to="18-6" subtype ="activation"/>
+    <edge from="104-5" to="104-6" subtype ="equivalence"/>
+    <edge from="102-5" to="22-6" subtype ="activation"/>
+    <edge from="102-5" to="42-6" subtype ="activation"/>
+   
+    <edge from="29-6" to="29-7" subtype ="equivalence"/>
+    <edge from="31-6" to="31-7" subtype ="equivalence"/>
+    <edge from="26-6" to="26-7" subtype ="equivalence"/>
+    <edge from="28-6" to="28-7" subtype ="equivalence"/>
+    <edge from="19-6" to="19-7" subtype ="equivalence"/>
+    <edge from="25-6" to="14-7" subtype ="activation"/>
+    <edge from="25-6" to="25-7" subtype ="equivalence"/>
+    <edge from="21-6" to="24-7" subtype ="activation"/>
+    <edge from="18-6" to="18-7" subtype ="equivalence"/>
+    <edge from="104-6" to="39-7" subtype ="activation"/>
+    <edge from="22-6" to="39-7" subtype ="activation"/>
+    <edge from="22-6" to="40-7" subtype ="inhibition"/>
+    <edge from="22-6" to="41-7" subtype ="inhibition"/>
+    <edge from="42-6" to="42-7" subtype ="equivalence"/>
+
+    <edge from="29-7" to="29-8" subtype ="equivalence"/>
+    <edge from="31-7" to="31-8" subtype ="equivalence"/>
+    <edge from="26-7" to="26-8" subtype ="equivalence"/>
+    <edge from="28-7" to="28-8" subtype ="equivalence"/>
+    <edge from="19-7" to="19-8" subtype ="equivalence"/>
+    <edge from="14-7" to="38-8" subtype ="indirect activation"/>
+    <edge from="25-7" to="25-8" subtype ="equivalence"/>
+    <edge from="24-7" to="17-8" subtype ="activation"/>
+    <edge from="18-7" to="18-8" subtype ="equivalence"/>
+    <edge from="39-7" to="39-8" subtype ="equivalence"/>
+    <edge from="40-7" to="40-8" subtype ="equivalence"/>
+    <edge from="41-7" to="41-8" subtype ="equivalence"/>
+    <edge from="42-7" to="42-8" subtype ="equivalence"/>
+
+    <edge from="29-8" to="29-9" subtype ="equivalence"/>
+    <edge from="31-8" to="31-9" subtype ="equivalence"/>
+    <edge from="26-8" to="26-9" subtype ="equivalence"/>
+    <edge from="28-8" to="28-9" subtype ="equivalence"/>
+    <edge from="19-8" to="19-9" subtype ="equivalence"/>
+    <edge from="38-8" to="37-9" subtype ="activation"/>
+    <edge from="25-8" to="37-9" subtype ="activation"/>
+    <edge from="17-8" to="17-9" subtype ="equivalence"/>
+    <edge from="18-8" to="18-9" subtype ="equivalence"/>
+    <edge from="39-8" to="39-9" subtype ="equivalence"/>
+    <edge from="40-8" to="40-9" subtype ="equivalence"/>
+    <edge from="41-8" to="41-9" subtype ="equivalence"/>
+    <edge from="42-8" to="42-9" subtype ="equivalence"/>
+
+    <edge from="29-9" to="29-10" subtype ="equivalence"/>
+    <edge from="31-9" to="31-10" subtype ="equivalence"/>
+    <edge from="26-9" to="26-10" subtype ="equivalence"/>
+    <edge from="28-9" to="28-10" subtype ="equivalence"/>
+    <edge from="19-9" to="19-10" subtype ="equivalence"/>
+    <edge from="37-9" to="36-10" subtype ="activation"/>
+    <edge from="17-9" to="17-10" subtype ="equivalence"/>
+    <edge from="18-9" to="18-10" subtype ="equivalence"/>
+    <edge from="39-9" to="39-10" subtype ="equivalence"/>
+    <edge from="40-9" to="40-10" subtype ="equivalence"/>
+    <edge from="41-9" to="41-10" subtype ="equivalence"/>
+    <edge from="42-9" to="42-10" subtype ="equivalence"/>
+
+    <edge from="29-10" to="29-11" subtype ="equivalence"/>
+    <edge from="31-10" to="31-11" subtype ="equivalence"/>
+    <edge from="26-10" to="26-11" subtype ="equivalence"/>
+    <edge from="28-10" to="28-11" subtype ="equivalence"/>
+    <edge from="19-10" to="19-11" subtype ="equivalence"/>
+    <edge from="36-10" to="35-11" subtype ="activation"/>
+    <edge from="17-10" to="17-11" subtype ="equivalence"/>
+    <edge from="18-10" to="18-11" subtype ="equivalence"/>
+    <edge from="39-10" to="103-11" subtype ="activation"/>
+    <edge from="40-10" to="40-11" subtype ="equivalence"/>
+    <edge from="41-10" to="41-11" subtype ="equivalence"/>
+    <edge from="42-10" to="42-11" subtype ="equivalence"/>
+
+    <edge from="29-11" to="29-12" subtype ="equivalence"/>
+    <edge from="31-11" to="31-12" subtype ="equivalence"/>
+    <edge from="26-11" to="26-12" subtype ="equivalence"/>
+    <edge from="28-11" to="28-12" subtype ="equivalence"/>
+    <edge from="19-11" to="19-12" subtype ="equivalence"/>
+    <edge from="35-11" to="18-12" subtype ="activation"/>
+    <edge from="18-11" to="18-12" subtype ="equivalence"/>
+    <edge from="17-11" to="17-12" subtype ="equivalence"/>
+    <edge from="103-11" to="103-12" subtype ="equivalence"/>
+    <edge from="40-11" to="40-12" subtype ="equivalence"/>
+    <edge from="41-11" to="41-12" subtype ="equivalence"/>
+    <edge from="42-11" to="42-12" subtype ="equivalence"/>
+</edges>
+</network>

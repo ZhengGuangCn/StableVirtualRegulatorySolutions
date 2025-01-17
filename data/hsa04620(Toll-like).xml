@@ -1,0 +1,1171 @@
+<network>
+ <layers>
+    <layer id="layer1">
+      <entry id="54-1">
+	<graphics name="TLR1, CD281, TIL, TIL._LPRS5, rsc786" fgcolor="#000000" bgcolor="#BFFFBF"
+               type="gene" x="250" y="113" width="46" height="17"/>
+      </entry>
+      <entry id="49a-1">
+	 <graphics name="TLR2, CD282, TIL4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="250" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="55-1">
+	 <graphics name="TLR6, CD286" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="250" y="177" width="46" height="17"/>
+      </entry>
+      <entry id="49b-1">
+	 <graphics name="TLR2, CD282, TIL4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="250" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="56-1">
+	 <graphics name="LBP, BPIFD2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="172" y="245" width="46" height="17"/>
+      </entry>
+      <entry id="51-1">
+	 <graphics name="TLR5, MELIOS, SLE1, SLEB1, TIL3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="250" y="417" width="46" height="17"/>
+      </entry>
+      <entry id="80-1">
+	 <graphics name="TLR7, TLR7-like..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="352" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="100-1">
+	 <graphics name="TLR8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="352" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="52-1">
+	 <graphics name="TLR3, CD283, IIAE2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="352" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="88-1">
+	 <graphics name="CTSK, CTS02, CTSO, CTSO1, CTSO2, PKND, PYCD" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="303" y="529" width="46" height="17"/>
+      </entry>
+      <entry id="28-1">
+	<graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="713" y="230" width="46" height="17"/>
+      </entry>
+      <entry id="13-1">
+	<graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer>
+
+  <layer id="layer2">
+      <entry id="32-2">
+       <graphics name="RAC1, MIG5, MRD48, Rac-1, TC-25, p21-Rac1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="554" y="420" width="46" height="17"/>
+      </entry>
+      <entry id="60-2">
+       <graphics name="TOLLIP, IL-1RAcPIP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="330" y="176" width="46" height="17"/>
+      </entry>
+      <entry id="6a-2">
+       <graphics name="MYD88, MYD88D" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="434" y="499" width="46" height="17"/>
+      </entry>
+      <entry id="30-2">
+       <graphics name="TIRAP, BACTS1, Mal, MyD88-2, wyatt" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="330" y="291" width="46" height="17"/>
+      </entry>
+      <entry id="63-2">
+       <graphics name="CD14" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="251" y="261" width="46" height="17"/>
+      </entry>
+      <entry id="51-2">
+       <graphics name="TLR5, MELIOS, SLE1, SLEB1, TIL3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="250" y="417" width="46" height="17"/>
+      </entry>
+      <entry id="6b-2">
+       <graphics name="MYD88, MYD88D" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="434" y="499" width="46" height="17"/>
+      </entry>
+      <entry id="52-2">
+       <graphics name="TLR3, CD283, IIAE2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="352" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="57-2">
+       <graphics name="TLR9, CD289" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="352" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="28-2">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-2">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer>
+
+  <layer id="layer3">
+      <entry id="78-3">
+       <graphics name="PIK3CA, CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="431" y="130" width="46" height="17"/>
+      </entry>
+      <entry id="60-3">
+       <graphics name="TOLLIP, IL-1RAcPIP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="330" y="176" width="46" height="17"/>
+      </entry>
+      <entry id="6a-3">
+       <graphics name="MYD88, MYD88D" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="434" y="499" width="46" height="17"/>
+      </entry>
+      <entry id="30-3">
+       <graphics name="TIRAP, BACTS1, Mal, MyD88-2, wyatt" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="330" y="291" width="46" height="17"/>
+      </entry>
+      <entry id="58-3">
+       <graphics name="TLR4, ARMD10, CD284, TLR-4, TOLL" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="250" y="308" width="46" height="17"/>
+      </entry>
+      <entry id="50-3">
+       <graphics name="LY96, ESOP-1, MD-2, MD2, ly-96" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="204" y="299" width="46" height="17"/>
+      </entry>
+      <entry id="51-3">
+       <graphics name="TLR5, MELIOS, SLE1, SLEB1, TIL3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="250" y="417" width="46" height="17"/>
+      </entry>
+      <entry id="6b-3">
+       <graphics name="MYD88, MYD88D" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="434" y="499" width="46" height="17"/>
+      </entry>
+      <entry id="52-3">
+       <graphics name="TLR3, CD283, IIAE2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="352" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="28-3">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-3">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer>
+
+ <layer id="layer4">
+      <entry id="42-4">
+       <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="130" width="46" height="17"/>
+      </entry>
+      <entry id="60-4">
+       <graphics name="TOLLIP, IL-1RAcPIP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="330" y="176" width="46" height="17"/>
+      </entry>
+      <entry id="6a-4">
+       <graphics name="MYD88, MYD88D" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="434" y="499" width="46" height="17"/>
+      </entry>
+      <entry id="30-4">
+       <graphics name="TIRAP, BACTS1, Mal, MyD88-2, wyatt" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="330" y="291" width="46" height="17"/>
+      </entry>
+      <entry id="6b-4">
+       <graphics name="MYD88, MYD88D" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="434" y="499" width="46" height="17"/>
+      </entry>
+      <entry id="59-4">
+       <graphics name="TICAM2, MyD88-4, TICAM-2, TIRAP3, TIRP, TRAM" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="330" y="363" width="46" height="17"/>
+      </entry>
+      <entry id="6c-4">
+       <graphics name="MYD88, MYD88D" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="434" y="499" width="46" height="17"/>
+      </entry>
+      <entry id="6d-4">
+       <graphics name="MYD88, MYD88D" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="434" y="499" width="46" height="17"/>
+      </entry>
+      <entry id="5-4">
+       <graphics name="IRAK4, IPD1, IRAK-4, NY-REN-64, REN64" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="61-4">
+       <graphics name="TICAM1, IIAE6, MyD88-3, PRVTIRB, TICAM-1, TRIF" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="435" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="28-4">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-4">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer>
+
+ <layer id="layer5">
+      <entry id="42-5">
+       <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="130" width="46" height="17"/>
+      </entry>
+      <entry id="38-5">
+       <graphics name="FADD, GIG3, MORT1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="431" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="5-5">
+       <graphics name="IRAK4, IPD1, IRAK-4, NY-REN-64, REN64" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="4a-5">
+       <graphics name="IRAK1, IRAK, pelle" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="665" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="9-5">
+       <graphics name="TRAF6, MGC:3310, RNF85" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="389" width="46" height="17"/>
+      </entry>
+      <entry id="4b-5">
+       <graphics name="IRAK1, IRAK, pelle" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="665" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="61-5">
+       <graphics name="TICAM1, IIAE6, MyD88-3, PRVTIRB, TICAM-1, TRIF" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="435" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="28-5">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-5">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer>     
+
+ <layer id="layer6">
+      <entry id="42-6">
+       <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="130" width="46" height="17"/>
+      </entry>
+      <entry id="66-6">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="9a-6">
+       <graphics name="TRAF6, MGC:3310, RNF85" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="389" width="46" height="17"/>
+      </entry>
+      <entry id="9b-6">
+       <graphics name="TRAF6, MGC:3310, RNF85" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="389" width="46" height="17"/>
+      </entry>
+      <entry id="15-6">
+       <graphics name="RIPK1, IMD57, RIP, RIP-1, RIP1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="406" width="46" height="17"/>
+      </entry>
+      <entry id="17-6">
+       <graphics name="IRF5, SLEB10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="448" width="46" height="17"/>
+      </entry>
+      <entry id="9c-6">
+       <graphics name="TRAF6, MGC:3310, RNF85" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="389" width="46" height="17"/>
+      </entry>
+      <entry id="4-6">
+       <graphics name="IRAK1, IRAK, pelle" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="665" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="14-6">
+       <graphics name="TRAF3, CAP-1, CAP1, CD40bp, CRAF1, IIAE5, LAP1, RNF118" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="521" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="28-6">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-6">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer>                                                                                         
+
+ <layer id="layer7">
+      <entry id="42-7">
+       <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="130" width="46" height="17"/>
+      </entry>
+      <entry id="66-7">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="41-7">
+       <graphics name="TAB1, 3'-Tab1, MAP3K7IP1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="586" y="274" width="46" height="17"/>
+      </entry>
+      <entry id="43-7">
+       <graphics name="TAB2, CHTD2, MAP3K7IP2, TAB-2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="586" y="291" width="46" height="17"/>
+      </entry>
+      <entry id="25-7">
+       <graphics name="MAP3K7, CSCF, FMD2, MEKK7, TAK1, TGF1a" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="586" y="308" width="46" height="17"/>
+      </entry>
+      <entry id="17-7">
+       <graphics name="IRF5, SLEB10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="448" width="46" height="17"/>
+      </entry>
+      <entry id="9-7">
+       <graphics name="TRAF6, MGC:3310, RNF85" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="389" width="46" height="17"/>
+      </entry>
+      <entry id="4-7">
+       <graphics name="IRAK1, IRAK, pelle" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="665" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="14-7">
+       <graphics name="TRAF3, CAP-1, CAP1, CD40bp, CRAF1, IIAE5, LAP1, RNF118" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="521" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="28-7">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-7">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer>      
+
+ <layer id="layer8">
+      <entry id="42-8">
+       <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="130" width="46" height="17"/>
+      </entry>
+      <entry id="66-8">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="64-8">
+       <graphics name="IKBKG, AMCBX1, EDAID1, FIP-3, FIP3, Fip3p, IKK-gamma, IKKAP1, IKKG, IMD33, IP, IP1, IP2, IPD2, NEMO, ZC2HC9" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="713" y="213" width="46" height="17"/>
+      </entry>
+      <entry id="28a-8">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="713" y="230" width="46" height="17"/>
+      </entry>
+      <entry id="24-8">
+       <graphics name="IKBKB, IKK-beta, IKK2, IKKB, IMD15, IMD15A, IMD15B, NFKBIKB" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="713" y="247" width="46" height="17"/>
+      </entry>
+      <entry id="83-8">
+       <graphics name="MAP2K3, MAPKK3, MEK3, MKK3, PRKMK3, SAPKK-2, SAPKK2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="101-8">
+       <graphics name="MKK6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="102-8">
+       <graphics name="MKK4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="81-8">
+       <graphics name="MAP2K7, JNKK2, MAPKK7, MEK, MEK_7, MKK7, PRKMK7, SAPKK-4, SAPKK4..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="413" width="46" height="17"/>
+      </entry>
+      <entry id="17-8">
+       <graphics name="IRF5, SLEB10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="448" width="46" height="17"/>
+      </entry>
+      <entry id="9-8">
+       <graphics name="TRAF6, MGC:3310, RNF85" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="389" width="46" height="17"/>
+      </entry>
+      <entry id="4-8">
+       <graphics name="IRAK1, IRAK, pelle" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="665" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="14-8">
+       <graphics name="TRAF3, CAP-1, CAP1, CD40bp, CRAF1, IIAE5, LAP1, RNF118" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="521" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="28b-8">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-8">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer> 
+
+ <layer id="layer9">
+      <entry id="42-9">
+       <graphics name="AKT3, MPPH, MPPH2, PKB-GAMMA, PKBG, PRKBG, RAC-PK-gamma, RAC-gamma, STK-2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="130" width="46" height="17"/>
+      </entry>
+      <entry id="66-9">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="12-9">
+       <graphics name="NFKB1, CVID12, EBP-1, KBF1, NF-kB, NF-kB1, NF-kappa-B1, NF-kappaB, NFKB-p105, NFKB-p50, NFkappaB, p105, p50" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="693" y="286" width="46" height="17"/>
+      </entry>
+      <entry id="45-9">
+       <graphics name="NFKBIA, EDAID2, IKBA, MAD-3, NFKBI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="247" width="46" height="17"/>
+      </entry>
+      <entry id="83-9">
+       <graphics name="MAP2K3, MAPKK3, MEK3, MKK3, PRKMK3, SAPKK-2, SAPKK2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="101-9">
+       <graphics name="MKK6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="102-9">
+       <graphics name="MKK4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="81-9">
+       <graphics name="MAP2K7, JNKK2, MAPKK7, MEK, MEK_7, MKK7, PRKMK7, SAPKK-4, SAPKK4..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="413" width="46" height="17"/>
+      </entry>
+      <entry id="17-9">
+       <graphics name="IRF5, SLEB10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="448" width="46" height="17"/>
+      </entry>
+      <entry id="9-9">
+       <graphics name="TRAF6, MGC:3310, RNF85" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="389" width="46" height="17"/>
+      </entry>
+      <entry id="4-9">
+       <graphics name="IRAK1, IRAK, pelle" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="665" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="14-9">
+       <graphics name="TRAF3, CAP-1, CAP1, CD40bp, CRAF1, IIAE5, LAP1, RNF118" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="521" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="28-9">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-9">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer> 
+
+ <layer id="layer10">
+      <entry id="66-10">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="11-10">
+       <graphics name="MAP3K8, AURA2, COT, EST, ESTF, MEKK8, TPL2, Tpl-2, c-COT" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="693" y="317" width="46" height="17"/>
+      </entry>
+      <entry id="12-10">
+       <graphics name="NFKB1, CVID12, EBP-1, KBF1, NF-kB, NF-kB1, NF-kappa-B1, NF-kappaB, NFKB-p105, NFKB-p50, NFkappaB, p105, p50" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="693" y="286" width="46" height="17"/>
+      </entry>
+      <entry id="83-10">
+       <graphics name="MAP2K3, MAPKK3, MEK3, MKK3, PRKMK3, SAPKK-2, SAPKK2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="101-10">
+       <graphics name="MKK6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="102-10">
+       <graphics name="MKK4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="81-10">
+       <graphics name="MAP2K7, JNKK2, MAPKK7, MEK, MEK_7, MKK7, PRKMK7, SAPKK-4, SAPKK4..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="413" width="46" height="17"/>
+      </entry>
+      <entry id="17-10">
+       <graphics name="IRF5, SLEB10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="448" width="46" height="17"/>
+      </entry>
+      <entry id="9-10">
+       <graphics name="TRAF6, MGC:3310, RNF85" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="389" width="46" height="17"/>
+      </entry>
+      <entry id="4-10">
+       <graphics name="IRAK1, IRAK, pelle" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="665" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="14-10">
+       <graphics name="TRAF3, CAP-1, CAP1, CD40bp, CRAF1, IIAE5, LAP1, RNF118" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="521" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="28-10">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-10">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer> 
+
+ <layer id="layer11">
+      <entry id="66-11">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="84-11">
+       <graphics name="MAP2K1, CFC3, MAPKK1, MEK1, MKK1, PRKMK1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="765" y="317" width="46" height="17"/>
+      </entry>
+      <entry id="103-11">
+       <graphics name="MEK2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="765" y="317" width="46" height="17"/>
+      </entry>
+      <entry id="12-11">
+       <graphics name="NFKB1, CVID12, EBP-1, KBF1, NF-kB, NF-kB1, NF-kappa-B1, NF-kappaB, NFKB-p105, NFKB-p50, NFkappaB, p105, p50" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="693" y="286" width="46" height="17"/>
+      </entry>
+      <entry id="83-11">
+       <graphics name="MAP2K3, MAPKK3, MEK3, MKK3, PRKMK3, SAPKK-2, SAPKK2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="101-11">
+       <graphics name="MKK6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="102-11">
+       <graphics name="MKK4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="384" width="46" height="17"/>
+      </entry>
+      <entry id="81-11">
+       <graphics name="MAP2K7, JNKK2, MAPKK7, MEK, MEK_7, MKK7, PRKMK7, SAPKK-4, SAPKK4..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="699" y="413" width="46" height="17"/>
+      </entry>
+      <entry id="17-11">
+       <graphics name="IRF5, SLEB10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="448" width="46" height="17"/>
+      </entry>
+      <entry id="9-11">
+       <graphics name="TRAF6, MGC:3310, RNF85" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="584" y="389" width="46" height="17"/>
+      </entry>
+      <entry id="4-11">
+       <graphics name="IRAK1, IRAK, pelle" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="665" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="37-11">
+       <graphics name="IKBKE, IKK-E, IKK-i, IKKE, IKKI" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="590" y="567" width="46" height="17"/>
+      </entry>
+      <entry id="35-11">
+       <graphics name="TBK1, FTDALS4, IIAE8, NAK, T2K" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="590" y="584" width="46" height="17"/>
+      </entry>
+      <entry id="28-11">
+       <graphics name="CHUK, IKBKA, IKK-alpha, IKK1, IKKA, NFKBIKA, TCF16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="793" y="543" width="46" height="17"/>
+      </entry>
+      <entry id="13-11">
+       <graphics name="SPP1, BNSP, BSPI, ETA-1, OPN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="740" y="559" width="46" height="17"/>
+      </entry>
+  </layer>
+  <layer id="layer12">
+      <entry id="66-12">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="10a-12">
+       <graphics name="MAPK1, ERK, ERK-2, ERK2, ERT1, MAPK2, P42MAPK, PRKM1, PRKM2, p38, p40, p41, p41mapk, p42-MAPK..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="317" width="46" height="17"/>
+      </entry>
+      <entry id="12-12">
+       <graphics name="NFKB1, CVID12, EBP-1, KBF1, NF-kB, NF-kB1, NF-kappa-B1, NF-kappaB, NFKB-p105, NFKB-p50, NFkappaB, p105, p50" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="693" y="286" width="46" height="17"/>
+      </entry>
+      <entry id="10b-12">
+       <graphics name="MAPK1, ERK, ERK-2, ERK2, ERT1, MAPK2, P42MAPK, PRKM1, PRKM2, p38, p40, p41, p41mapk, p42-MAPK..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="317" width="46" height="17"/>
+      </entry>
+      <entry id="33-12">
+       <graphics name="MAPK8, JNK, JNK-46, JNK1, JNK1A2, JNK21B1/2, PRKM8, SAPK1, SAPK1c..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="413" width="46" height="17"/>
+      </entry>
+      <entry id="17-12">
+       <graphics name="IRF5, SLEB10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="448" width="46" height="17"/>
+      </entry>
+      <entry id="16-12">
+       <graphics name="IRF7, IMD39, IRF-7, IRF-7H, IRF7A, IRF7B, IRF7C, IRF7H" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="498" width="46" height="17"/>
+      </entry>
+      <entry id="47-12">
+      <graphics name="IRF3, IIAE7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="838" y="576" width="46" height="17"/>
+      </entry>
+  </layer>
+  <layer id="layer13">
+      <entry id="66-13">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="85-13">
+       <graphics name="FOS, AP-1, C-FOS, p55..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="951" y="361" width="46" height="17"/>
+      </entry>
+      <entry id="12-13">
+       <graphics name="NFKB1, CVID12, EBP-1, KBF1, NF-kB, NF-kB1, NF-kappa-B1, NF-kappaB, NFKB-p105, NFKB-p50, NFkappaB, p105, p50" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="693" y="286" width="46" height="17"/>
+      </entry>
+      <entry id="17-13">
+       <graphics name="IRF5, SLEB10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="837" y="448" width="46" height="17"/>
+      </entry>
+      <entry id="23-13">
+       <graphics name="CD40, Bp50, CDW40, TNFRSF5, p50" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="419" width="46" height="17"/>
+      </entry>
+      <entry id="48-13">
+       <graphics name="CD80, B7, B7-1, B7.1, BB1, CD28LG, CD28LG1, LAB7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="441" width="46" height="17"/>
+      </entry>
+      <entry id="22-13">
+       <graphics name="CD86, B7-2, B7.2, B70, CD28LG2, LAB72" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="463" width="46" height="17"/>
+      </entry>
+      <entry id="21-13">
+       <graphics name="IFNA1, IFL, IFN, IFN-ALPHA, IFN-alphaD, IFNA13, IFNA@..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="554" width="46" height="17"/>
+      </entry>
+      <entry id="20-13">
+       <graphics name="IFNB1, IFB, IFF, IFN-beta, IFNB" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="577" width="46" height="17"/>
+      </entry>
+      <entry id="19-13">
+       <graphics name="CXCL10, C7, IFI10, INP10, IP-10, SCYB10, crg-2, gIP-10, mob-1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="652" width="46" height="17"/>
+      </entry>
+      <entry id="77-13">
+       <graphics name="CXCL9, CMK, Humig, MIG, SCYB9, crg-10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="675" width="46" height="17"/>
+      </entry>
+      <entry id="18-13">
+       <graphics name="CXCL11, H174, I-TAC, IP-9, IP9, SCYB11, SCYB9B, b-R1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="696" width="46" height="17"/>
+      </entry>
+  </layer>  
+  <layer id="layer14">
+      <entry id="66-14">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="46-14">
+       <graphics name="TNF, DIF, TNF-alpha, TNFA, TNFSF2, TNLG1F" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="151" width="46" height="17"/>
+      </entry>
+      <entry id="34-14">
+       <graphics name="IL1B, IL-1, IL1-BETA, IL1F2, IL1beta" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="172" width="46" height="17"/>
+      </entry>
+      <entry id="39-14">
+       <graphics name="IL6, BSF-2, BSF2, CDF, HGF, HSF, IFN-beta-2, IFNB2, IL-6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="86-14">
+       <graphics name="IL12A, CLMF, IL-12A, NFSK, NKSF1, P35..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="214" width="46" height="17"/>
+      </entry>
+      <entry id="29-14">
+       <graphics name="CXCL8, GCP-1, GCP1, IL8, LECT, LUCT, LYNAP, MDNCF, MONAP, NAF, NAP-1, NAP1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="245" width="46" height="17"/>
+      </entry>
+      <entry id="40-14">
+       <graphics name="CCL5, D17S136E, RANTES, SCYA5, SIS-delta, SISd, TCP228, eoCP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="267" width="46" height="17"/>
+      </entry>
+      <entry id="104-14">
+      <graphics name="CCL3, MIP-1alpha" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="289" width="46" height="17"/>
+      </entry>
+      <entry id="87-14">
+       <graphics name="CCL4L1, AT744.2, CCL4L, LAG-1, LAG1, MIP-1-beta, SCYA4L, SCYA4L1, SCYA4L2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="310" width="46" height="17"/>
+      </entry>
+      <entry id="23-14">
+       <graphics name="CD40, Bp50, CDW40, TNFRSF5, p50" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="419" width="46" height="17"/>
+      </entry>
+      <entry id="48-14">
+       <graphics name="CD80, B7, B7-1, B7.1, BB1, CD28LG, CD28LG1, LAB7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="441" width="46" height="17"/>
+      </entry>
+      <entry id="22-14">
+       <graphics name="CD86, B7-2, B7.2, B70, CD28LG2, LAB72" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="463" width="46" height="17"/>
+      </entry>
+      <entry id="21-14">
+       <graphics name="IFNA1, IFL, IFN, IFN-ALPHA, IFN-alphaD, IFNA13, IFNA@..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="554" width="46" height="17"/>
+      </entry>
+      <entry id="79-14">
+       <graphics name="IFNAR1, AVP, IFN-alpha-REC, IFNAR, IFNBR, IFRC..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="251" y="674" width="46" height="17"/>
+      </entry>
+      <entry id="19-14">
+       <graphics name="CXCL10, C7, IFI10, INP10, IP-10, SCYB10, crg-2, gIP-10, mob-1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="652" width="46" height="17"/>
+      </entry>
+      <entry id="77-14">
+       <graphics name="CXCL9, CMK, Humig, MIG, SCYB9, crg-10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="675" width="46" height="17"/>
+      </entry>
+      <entry id="18-14">
+       <graphics name="CXCL11, H174, I-TAC, IP-9, IP9, SCYB11, SCYB9B, b-R1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="696" width="46" height="17"/>
+      </entry>
+  </layer>
+  <layer id="layer15">
+      <entry id="66-15">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="46-15">
+       <graphics name="TNF, DIF, TNF-alpha, TNFA, TNFSF2, TNLG1F" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="151" width="46" height="17"/>
+      </entry>
+      <entry id="34-15">
+       <graphics name="IL1B, IL-1, IL1-BETA, IL1F2, IL1beta" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="172" width="46" height="17"/>
+      </entry>
+      <entry id="39-15">
+       <graphics name="IL6, BSF-2, BSF2, CDF, HGF, HSF, IFN-beta-2, IFNB2, IL-6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="86-15">
+       <graphics name="IL12A, CLMF, IL-12A, NFSK, NKSF1, P35..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="214" width="46" height="17"/>
+      </entry>
+      <entry id="29-15">
+       <graphics name="CXCL8, GCP-1, GCP1, IL8, LECT, LUCT, LYNAP, MDNCF, MONAP, NAF, NAP-1, NAP1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="245" width="46" height="17"/>
+      </entry>
+      <entry id="40-15">
+       <graphics name="CCL5, D17S136E, RANTES, SCYA5, SIS-delta, SISd, TCP228, eoCP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="267" width="46" height="17"/>
+      </entry>
+      <entry id="104-15">
+       <graphics name="CCL3, MIP-1alpha" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="289" width="46" height="17"/>
+      </entry>
+      <entry id="87-15">
+       <graphics name="CCL4L1, AT744.2, CCL4L, LAG-1, LAG1, MIP-1-beta, SCYA4L, SCYA4L1, SCYA4L2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="310" width="46" height="17"/>
+      </entry>
+      <entry id="23-15">
+       <graphics name="CD40, Bp50, CDW40, TNFRSF5, p50" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="419" width="46" height="17"/>
+      </entry>
+      <entry id="48-15">
+       <graphics name="CD80, B7, B7-1, B7.1, BB1, CD28LG, CD28LG1, LAB7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="441" width="46" height="17"/>
+      </entry>
+      <entry id="22-15">
+       <graphics name="CD86, B7-2, B7.2, B70, CD28LG2, LAB72" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="463" width="46" height="17"/>
+      </entry>
+      <entry id="21-15">
+       <graphics name="IFNA1, IFL, IFN, IFN-ALPHA, IFN-alphaD, IFNA13, IFNA@..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="554" width="46" height="17"/>
+      </entry>
+      <entry id="44-15">
+       <graphics name="STAT1, CANDF7, IMD31A, IMD31B, IMD31C, ISGF-3, STAT91" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="838" y="674" width="46" height="17"/>
+      </entry>
+      <entry id="19-15">
+       <graphics name="CXCL10, C7, IFI10, INP10, IP-10, SCYB10, crg-2, gIP-10, mob-1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="652" width="46" height="17"/>
+      </entry>
+      <entry id="77-15">
+       <graphics name="CXCL9, CMK, Humig, MIG, SCYB9, crg-10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="675" width="46" height="17"/>
+      </entry>
+      <entry id="18-15">
+       <graphics name="CXCL11, H174, I-TAC, IP-9, IP9, SCYB11, SCYB9B, b-R1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="696" width="46" height="17"/>
+      </entry>
+  </layer>
+  <layer id="layer16">
+      <entry id="66-16">
+       <graphics name="CASP8, ALPS2B, CAP4, Casp-8, FLICE, MACH, MCH5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="507" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="46-16">
+       <graphics name="TNF, DIF, TNF-alpha, TNFA, TNFSF2, TNLG1F" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="151" width="46" height="17"/>
+      </entry>
+      <entry id="34-16">
+       <graphics name="IL1B, IL-1, IL1-BETA, IL1F2, IL1beta" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="172" width="46" height="17"/>
+      </entry>
+      <entry id="39-16">
+       <graphics name="IL6, BSF-2, BSF2, CDF, HGF, HSF, IFN-beta-2, IFNB2, IL-6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="193" width="46" height="17"/>
+      </entry>
+      <entry id="86-16">
+       <graphics name="IL12A, CLMF, IL-12A, NFSK, NKSF1, P35..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="214" width="46" height="17"/>
+      </entry>
+      <entry id="29-16">
+       <graphics name="CXCL8, GCP-1, GCP1, IL8, LECT, LUCT, LYNAP, MDNCF, MONAP, NAF, NAP-1, NAP1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="245" width="46" height="17"/>
+      </entry>
+      <entry id="40-16">
+       <graphics name="CCL5, D17S136E, RANTES, SCYA5, SIS-delta, SISd, TCP228, eoCP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="267" width="46" height="17"/>
+      </entry>
+      <entry id="104-16">
+       <graphics name="CCL3, MIP-1alpha" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="289" width="46" height="17"/>
+      </entry>
+      <entry id="87-16">
+       <graphics name="CCL4L1, AT744.2, CCL4L, LAG-1, LAG1, MIP-1-beta, SCYA4L, SCYA4L1, SCYA4L2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="310" width="46" height="17"/>
+      </entry>
+      <entry id="23-16">
+       <graphics name="CD40, Bp50, CDW40, TNFRSF5, p50" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="419" width="46" height="17"/>
+      </entry>
+      <entry id="48-16">
+       <graphics name="CD80, B7, B7-1, B7.1, BB1, CD28LG, CD28LG1, LAB7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="441" width="46" height="17"/>
+      </entry>
+      <entry id="22-16">
+       <graphics name="CD86, B7-2, B7.2, B70, CD28LG2, LAB72" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="463" width="46" height="17"/>
+      </entry>
+      <entry id="21-16">
+       <graphics name="IFNA1, IFL, IFN, IFN-ALPHA, IFN-alphaD, IFNA13, IFNA@..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="554" width="46" height="17"/>
+      </entry>
+      <entry id="19-16">
+       <graphics name="CXCL10, C7, IFI10, INP10, IP-10, SCYB10, crg-2, gIP-10, mob-1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="652" width="46" height="17"/>
+      </entry>
+      <entry id="77-16">
+       <graphics name="CXCL9, CMK, Humig, MIG, SCYB9, crg-10" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="675" width="46" height="17"/>
+      </entry>
+      <entry id="18-16">
+       <graphics name="CXCL11, H174, I-TAC, IP-9, IP9, SCYB11, SCYB9B, b-R1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="gene" x="1099" y="696" width="46" height="17"/>
+      </entry>
+  </layer>          
+ </layers>
+
+<edges>
+    <edge from="54-1" to="32-2" subtype="activation"/>
+    <edge from="49a-1" to="32-2" subtype="activation"/>
+    <edge from="55-1" to="32-2" subtype="activation"/>
+    <edge from="49b-1" to="32-2" subtype="activation"/>
+    <edge from="54-1" to="60-2" subtype="activation"/>
+    <edge from="49a-1" to="60-2" subtype="activation"/>
+    <edge from="55-1" to="60-2" subtype="activation"/>
+    <edge from="49b-1" to="60-2" subtype="activation"/>
+    <edge from="54-1" to="6a-2" subtype="activation"/>
+    <edge from="49a-1" to="6a-2" subtype="activation"/>
+    <edge from="55-1" to="6a-2" subtype="activation"/>
+    <edge from="49b-1" to="6a-2" subtype="activation"/>
+    <edge from="54-1" to="30-2" subtype="activation"/>
+    <edge from="49a-1" to="30-2" subtype="activation"/>
+    <edge from="55-1" to="30-2" subtype="activation"/>
+    <edge from="49b-1" to="30-2" subtype="activation"/>
+    <edge from="56-1" to="63-2" subtype="activation"/>
+    <edge from="51-1" to="51-2" subtype ="equivalence"/>
+    <edge from="80-1" to="6b-2" subtype="activation"/>
+    <edge from="100-1" to="6b-2" subtype="activation"/>
+    <edge from="52-1" to="52-2" subtype ="equivalence"/>
+    <edge from="88-1" to="57-2" subtype="activation"/>
+    <edge from="28-1" to="28-2" subtype ="equivalence"/>
+    <edge from="13-1" to="13-2" subtype ="equivalence"/>
+
+    <edge from="32-2" to="78-3" subtype ="activation"/>
+    <edge from="60-2" to="60-3" subtype ="equivalence"/>
+    <edge from="6a-2" to="6a-3" subtype ="equivalence"/>
+    <edge from="30-2" to="30-3" subtype ="equivalence"/>
+    <edge from="63-2" to="58-3" subtype ="activation"/>
+    <edge from="63-2" to="50-3" subtype ="activation"/>
+    <edge from="51-2" to="51-3" subtype ="equivalence"/>
+    <edge from="6b-2" to="6b-3" subtype ="equivalence"/>
+    <edge from="57-2" to="6b-3" subtype ="activation"/>
+    <edge from="52-2" to="52-3" subtype ="equivalence"/>
+    <edge from="28-2" to="28-3" subtype ="equivalence"/>
+    <edge from="13-2" to="13-3" subtype ="equivalence"/>
+    
+    <edge from="78-3" to="42-4" subtype ="indirect activation"/>
+    <edge from="60-3" to="60-4" subtype ="equivalence"/>
+    <edge from="6a-3" to="6a-4" subtype ="equivalence"/>
+    <edge from="30-3" to="30-4" subtype ="equivalence"/>
+    <edge from="58-3" to="30-4" subtype ="activation"/>
+    <edge from="50-3" to="30-4" subtype ="activation"/>
+    <edge from="58-3" to="6b-4" subtype ="activation"/>
+    <edge from="50-3" to="6b-4" subtype ="activation"/>
+    <edge from="58-3" to="59-4" subtype ="activation"/>
+    <edge from="50-3" to="59-4" subtype ="activation"/>
+    <edge from="51-3" to="6c-4" subtype ="activation"/>
+    <edge from="6b-3" to="6d-4" subtype ="equivalence"/>
+    <edge from="6b-3" to="5-4" subtype ="activation"/>
+    <edge from="52-3" to="61-4" subtype ="activation"/>
+    <edge from="28-3" to="28-4" subtype ="equivalence"/>
+    <edge from="13-3" to="13-4" subtype ="equivalence"/>
+
+
+    <edge from="42-4" to="42-5" subtype ="equivalence"/>
+    <edge from="60-4" to="38-5" subtype ="activation"/>
+    <edge from="6a-4" to="38-5" subtype ="activation"/>
+    <edge from="30-4" to="38-5" subtype ="activation"/>
+    <edge from="6b-4" to="38-5" subtype ="activation"/>
+    <edge from="60-4" to="5-5" subtype ="activation"/>
+    <edge from="6a-4" to="5-5" subtype ="activation"/>
+    <edge from="30-4" to="5-5" subtype ="activation"/>
+    <edge from="6b-4" to="5-5" subtype ="activation"/>
+    <edge from="6c-4" to="5-5" subtype ="activation"/>
+    <edge from="6d-4" to="5-5" subtype ="activation"/>
+    <edge from="60-4" to="4a-5" subtype ="activation"/>
+    <edge from="6a-4" to="4a-5" subtype ="activation"/>
+    <edge from="30-4" to="4a-5" subtype ="activation"/>
+    <edge from="6b-4" to="4a-5" subtype ="activation"/>
+    <edge from="6c-4" to="4a-5" subtype ="activation"/>
+    <edge from="6d-4" to="4a-5" subtype ="activation"/>
+    <edge from="5-4" to="9-5" subtype ="activation"/>
+    <edge from="5-4" to="4b-5" subtype ="activation"/>
+    <edge from="59-4" to="61-5" subtype ="activation"/>
+    <edge from="61-4" to="61-5" subtype ="equivalence"/>
+    <edge from="28-4" to="28-5" subtype ="equivalence"/>
+    <edge from="13-4" to="13-5" subtype ="equivalence"/>
+
+    <edge from="42-5" to="42-6" subtype ="equivalence"/>
+    <edge from="38-5" to="66-6" subtype ="activation"/>
+    <edge from="5-5" to="9a-6" subtype ="activation"/>
+    <edge from="4a-5" to="9a-6" subtype ="activation"/>
+    <edge from="61-5" to="9b-6" subtype ="activation"/>
+    <edge from="61-5" to="15-6" subtype ="activation"/>
+    <edge from="9-5" to="17-6" subtype ="activation"/>
+    <edge from="9-5" to="9c-6" subtype ="equivalence"/>
+    <edge from="4b-5" to="4-6" subtype ="equivalence"/>
+    <edge from="61-5" to="14-6" subtype ="activation"/>
+    <edge from="28-5" to="28-6" subtype ="equivalence"/>
+    <edge from="13-5" to="13-6" subtype ="equivalence"/>
+
+    <edge from="42-6" to="42-7" subtype ="equivalence"/>
+    <edge from="66-6" to="66-7" subtype ="equivalence"/>
+    <edge from="9a-6" to="41-7" subtype ="activation"/>
+    <edge from="9b-6" to="41-7" subtype ="activation"/>
+    <edge from="15-6" to="41-7" subtype ="activation"/>
+    <edge from="9a-6" to="43-7" subtype ="activation"/>
+    <edge from="9b-6" to="43-7" subtype ="activation"/>
+    <edge from="15-6" to="43-7" subtype ="activation"/>
+    <edge from="9a-6" to="25-7" subtype ="activation"/>
+    <edge from="9b-6" to="25-7" subtype ="activation"/>
+    <edge from="15-6" to="25-7" subtype ="activation"/>
+    <edge from="9a-6" to="17-7" subtype ="activation"/>
+    <edge from="17-6" to="17-7" subtype ="equivalence"/>
+    <edge from="9c-6" to="9-7" subtype ="equivalence"/>
+    <edge from="4-6" to="4-7" subtype ="equivalence"/>
+    <edge from="14-6" to="14-7" subtype ="equivalence"/>
+    <edge from="28-6" to="28-7" subtype ="equivalence"/>
+    <edge from="13-6" to="13-7" subtype ="equivalence"/>
+
+    <edge from="42-7" to="42-8" subtype ="equivalence"/>
+    <edge from="66-7" to="66-8" subtype ="equivalence"/>
+    <edge from="41-7" to="64-8" subtype ="activation"/>
+    <edge from="43-7" to="64-8" subtype ="activation"/>
+    <edge from="25-7" to="64-8" subtype ="activation"/>
+    <edge from="41-7" to="28a-8" subtype ="activation"/>
+    <edge from="43-7" to="28a-8" subtype ="activation"/>
+    <edge from="25-7" to="28a-8" subtype ="activation"/>
+    <edge from="41-7" to="24-8" subtype ="activation"/>
+    <edge from="43-7" to="24-8" subtype ="activation"/>
+    <edge from="25-7" to="24-8" subtype ="activation"/>
+    <edge from="41-7" to="83-8" subtype ="activation"/>
+    <edge from="43-7" to="83-8" subtype ="activation"/>
+    <edge from="25-7" to="83-8" subtype ="activation"/>
+    <edge from="41-7" to="101-8" subtype ="activation"/>
+    <edge from="43-7" to="101-8" subtype ="activation"/>
+    <edge from="25-7" to="101-8" subtype ="activation"/>
+    <edge from="41-7" to="102-8" subtype ="activation"/>
+    <edge from="43-7" to="102-8" subtype ="activation"/>
+    <edge from="25-7" to="102-8" subtype ="activation"/>
+    <edge from="41-7" to="81-8" subtype ="activation"/>
+    <edge from="43-7" to="81-8" subtype ="activation"/>
+    <edge from="25-7" to="81-8" subtype ="activation"/>
+    <edge from="17-7" to="17-8" subtype ="equivalence"/>
+    <edge from="9-7" to="9-8" subtype ="equivalence"/>
+    <edge from="4-7" to="4-8" subtype ="equivalence"/>
+    <edge from="14-7" to="14-8" subtype ="equivalence"/>
+    <edge from="28-7" to="28b-8" subtype ="equivalence"/>
+    <edge from="13-7" to="13-8" subtype ="equivalence"/>
+
+    <edge from="42-8" to="42-9" subtype ="equivalence"/>
+    <edge from="66-8" to="66-9" subtype ="equivalence"/>
+    <edge from="64-8" to="12-9" subtype ="activation"/>
+    <edge from="28a-8" to="12-9" subtype ="activation"/>
+    <edge from="24-8" to="12-9" subtype ="activation"/>
+    <edge from="64-8" to="45-9" subtype ="activation"/>
+    <edge from="28a-8" to="45-9" subtype ="activation"/>
+    <edge from="24-8" to="45-9" subtype ="activation"/>
+    <edge from="83-8" to="83-9" subtype ="equivalence"/>
+    <edge from="101-8" to="101-9" subtype ="equivalence"/>
+    <edge from="102-8" to="102-9" subtype ="equivalence"/>
+    <edge from="81-8" to="81-9" subtype ="equivalence"/>
+    <edge from="17-8" to="17-9" subtype ="equivalence"/>
+    <edge from="9-8" to="9-9" subtype ="equivalence"/>
+    <edge from="4-8" to="4-9" subtype ="equivalence"/>
+    <edge from="14-8" to="14-9" subtype ="equivalence"/>
+    <edge from="28b-8" to="28-9" subtype ="equivalence"/>
+    <edge from="13-8" to="13-9" subtype ="equivalence"/>
+
+    <edge from="66-9" to="66-10" subtype ="equivalence"/>
+    <edge from="12-9" to="11-10" subtype ="inhibition"/>
+    <edge from="42-9" to="12-10" subtype ="indirect activation"/>
+    <edge from="45-9" to="12-10" subtype ="inhibition"/>
+    <edge from="83-9" to="83-10" subtype ="equivalence"/>
+    <edge from="101-9" to="101-10" subtype ="equivalence"/>
+    <edge from="102-9" to="102-10" subtype ="equivalence"/>
+    <edge from="81-9" to="81-10" subtype ="equivalence"/>
+    <edge from="17-9" to="17-10" subtype ="equivalence"/>
+    <edge from="9-9" to="9-10" subtype ="equivalence"/>
+    <edge from="4-9" to="4-10" subtype ="equivalence"/>
+    <edge from="14-9" to="14-10" subtype ="equivalence"/>
+    <edge from="28-9" to="28-10" subtype ="equivalence"/>
+    <edge from="13-9" to="13-10" subtype ="equivalence"/>
+    
+
+    <edge from="66-10" to="66-11" subtype ="equivalence"/>
+    <edge from="11-10" to="84-11" subtype ="activation"/>
+    <edge from="11-10" to="103-11" subtype ="activation"/>
+    <edge from="12-10" to="12-11" subtype ="equivalence"/>
+    <edge from="83-10" to="83-11" subtype ="equivalence"/>
+    <edge from="101-10" to="101-11" subtype ="equivalence"/>
+    <edge from="102-10" to="102-11" subtype ="equivalence"/>
+    <edge from="81-10" to="81-11" subtype ="equivalence"/>
+    <edge from="17-10" to="17-11" subtype ="equivalence"/>
+    <edge from="9-10" to="9-11" subtype ="equivalence"/>
+    <edge from="4-10" to="4-11" subtype ="equivalence"/>
+    <edge from="14-10" to="37-11" subtype ="activation"/>
+    <edge from="14-10" to="35-11" subtype ="activation"/>
+    <edge from="28-10" to="28-11" subtype ="equivalence"/>
+    <edge from="13-10" to="13-11" subtype ="equivalence"/>
+
+    <edge from="66-11" to="66-12" subtype ="equivalence"/>
+    <edge from="84-11" to="10a-12" subtype ="activation"/>
+    <edge from="103-11" to="10a-12" subtype ="activation"/>
+    <edge from="12-11" to="12-12" subtype ="equivalence"/>
+    <edge from="83-11" to="10b-12" subtype ="activation"/>
+    <edge from="101-11" to="10b-12" subtype ="activation"/>
+    <edge from="102-11" to="33-12" subtype ="activation"/>
+    <edge from="81-11" to="33-12" subtype ="activation"/>
+    <edge from="17-11" to="17-12" subtype ="equivalence"/>
+    <edge from="9-11" to="16-12" subtype ="activation"/>
+    <edge from="4-11" to="16-12" subtype ="activation"/>
+    <edge from="37-11" to="16-12" subtype ="activation"/>
+    <edge from="35-11" to="16-12" subtype ="activation"/>
+    <edge from="28-11" to="16-12" subtype ="activation"/>
+    <edge from="13-11" to="16-12" subtype ="activation"/>
+    <edge from="37-11" to="47-12" subtype ="activation"/>
+    <edge from="35-11" to="47-12" subtype ="activation"/>
+   
+
+    <edge from="66-12" to="66-13" subtype ="equivalence"/>
+    <edge from="10a-12" to="85-13" subtype ="activation"/>
+    <edge from="10b-12" to="85-13" subtype ="activation"/>
+    <edge from="33-12" to="85-13" subtype ="activation"/>
+    <edge from="12-12" to="12-13" subtype ="equivalence"/>
+    <edge from="17-12" to="17-13" subtype ="equivalence"/>
+    <edge from="47-12" to="23-13" subtype ="activation"/>
+    <edge from="47-12" to="48-13" subtype ="activation"/>
+    <edge from="47-12" to="22-13" subtype ="activation"/>
+    <edge from="17-12" to="21-13" subtype ="activation"/>
+    <edge from="16-12" to="21-13" subtype ="activation"/>
+    <edge from="17-12" to="20-13" subtype ="activation"/>
+    <edge from="16-12" to="20-13" subtype ="activation"/>
+    <edge from="47-12" to="20-13" subtype ="activation"/>
+    <edge from="47-12" to="19-13" subtype ="activation"/>
+    <edge from="47-12" to="77-13" subtype ="activation"/>
+    <edge from="47-12" to="18-13" subtype ="activation"/>
+
+    <edge from="66-13" to="66-14" subtype ="equivalence"/>
+    <edge from="85-13" to="46-14" subtype ="activation"/>
+    <edge from="12-13" to="46-14" subtype ="activation"/>
+    <edge from="17-13" to="46-14" subtype ="activation"/>
+    <edge from="85-13" to="34-14" subtype ="activation"/>
+    <edge from="12-13" to="34-14" subtype ="activation"/>
+    <edge from="17-13" to="34-14" subtype ="activation"/>
+    <edge from="85-13" to="39-14" subtype ="activation"/>
+    <edge from="12-13" to="39-14" subtype ="activation"/>
+    <edge from="17-13" to="39-14" subtype ="activation"/>
+    <edge from="85-13" to="86-14" subtype ="activation"/>
+    <edge from="12-13" to="86-14" subtype ="activation"/>
+    <edge from="17-13" to="86-14" subtype ="activation"/>
+    <edge from="85-13" to="29-14" subtype ="activation"/>
+    <edge from="12-13" to="29-14" subtype ="activation"/>
+    <edge from="17-13" to="29-14" subtype ="activation"/>
+    <edge from="85-13" to="40-14" subtype ="activation"/>
+    <edge from="12-13" to="40-14" subtype ="activation"/>
+    <edge from="17-13" to="40-14" subtype ="activation"/>
+    <edge from="85-13" to="104-14" subtype ="activation"/>
+    <edge from="12-13" to="104-14" subtype ="activation"/>
+    <edge from="17-13" to="104-14" subtype ="activation"/>
+    <edge from="85-13" to="87-14" subtype ="activation"/>
+    <edge from="12-13" to="87-14" subtype ="activation"/>
+    <edge from="17-13" to="87-14" subtype ="activation"/>
+    <edge from="23-13" to="23-14" subtype ="equivalence"/>
+    <edge from="48-13" to="48-14" subtype ="equivalence"/>
+    <edge from="22-13" to="22-14" subtype ="equivalence"/>
+    <edge from="21-13" to="21-14" subtype ="equivalence"/>
+    <edge from="20-13" to="79-14" subtype ="activation"/>
+    <edge from="19-13" to="19-14" subtype ="equivalence"/>
+    <edge from="77-13" to="77-14" subtype ="equivalence"/>
+    <edge from="18-13" to="18-14" subtype ="equivalence"/>
+
+    <edge from="66-14" to="66-15" subtype ="equivalence"/>
+    <edge from="46-14" to="46-15" subtype ="equivalence"/>
+    <edge from="34-14" to="34-15" subtype ="equivalence"/>
+    <edge from="39-14" to="39-15" subtype ="equivalence"/>
+    <edge from="86-14" to="86-15" subtype ="equivalence"/>
+    <edge from="29-14" to="29-15" subtype ="equivalence"/>
+    <edge from="40-14" to="40-15" subtype ="equivalence"/>
+    <edge from="104-14" to="104-15" subtype ="equivalence"/>
+    <edge from="87-14" to="87-15" subtype ="equivalence"/>
+    <edge from="23-14" to="23-15" subtype ="equivalence"/>
+    <edge from="48-14" to="48-15" subtype ="equivalence"/>
+    <edge from="22-14" to="22-15" subtype ="equivalence"/>
+    <edge from="21-14" to="21-15" subtype ="equivalence"/>
+    <edge from="79-14" to="44-15" subtype ="activation"/>
+    <edge from="19-14" to="19-15" subtype ="equivalence"/>
+    <edge from="77-14" to="77-15" subtype ="equivalence"/>
+    <edge from="18-14" to="18-15" subtype ="equivalence"/>
+
+    <edge from="66-15" to="66-16" subtype ="equivalence"/>
+    <edge from="46-15" to="46-16" subtype ="equivalence"/>
+    <edge from="34-15" to="34-16" subtype ="equivalence"/>
+    <edge from="39-15" to="39-16" subtype ="equivalence"/>
+    <edge from="86-15" to="86-16" subtype ="equivalence"/>
+    <edge from="29-15" to="29-16" subtype ="equivalence"/>
+    <edge from="40-15" to="40-16" subtype ="equivalence"/>
+    <edge from="104-15" to="104-16" subtype ="equivalence"/>
+    <edge from="87-15" to="87-16" subtype ="equivalence"/>
+    <edge from="23-15" to="23-16" subtype ="equivalence"/>
+    <edge from="48-15" to="48-16" subtype ="equivalence"/>
+    <edge from="22-15" to="22-16" subtype ="equivalence"/>
+    <edge from="21-15" to="21-16" subtype ="equivalence"/>
+    <edge from="44-15" to="19-16" subtype ="activation"/>
+    <edge from="19-15" to="19-16" subtype ="equivalence"/>
+    <edge from="44-15" to="77-16" subtype ="activation"/>
+    <edge from="77-15" to="77-16" subtype ="equivalence"/>
+    <edge from="44-15" to="18-16" subtype ="activation"/>
+    <edge from="18-15" to="18-16" subtype ="equivalence"/>
+
+</edges>
+
+</network>
+
+
+
