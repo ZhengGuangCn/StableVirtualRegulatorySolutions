@@ -18,7 +18,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import matplotlib.colors as mcolors
 import matplotlib.patches as patches
-import matplotlib.patches as patches
 import matplotlib.lines as lines
 from matplotlib.lines import Line2D
 from matplotlib.patches import FancyArrow
