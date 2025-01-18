@@ -1,23 +1,36 @@
 Introduction:
+
 This study aims to simulate the regulatory networks within organisms using neural networks to further uncover biological regulatory associations. 
 We designed a method to solve the regulatory network of KEGG-related pathways associated with rheumatoid arthritis based on fully connected neural networks. 
 Rheumatoid arthritis-related pathways from the KEGG database were transformed into neural networks for training. 
 Given the sparsity of connections in the pathway networks, we introduced strong constraints to allow the fully connected networks to better fit the pathway networks. 
 Finally, we employed a virtual mean solution in the trained model to validate the method. The results demonstrate that our approach achieves excellent predictive performance.
 
+
 Dependencies:
 
 python 3.8;
-
 numpy 1.20.1;
-
 scikit-learn 0.24.1;
-
 scipy 1.6.2;
-
 torch 1.10.2;
-
 R 4.2.3.
+
+
+result:
+
+These are the model training results for six KEGG pathways associated with rheumatoid arthritis. The folder annotations provide explanations for each folder.
+
+
+data:
+
+The folder stores 20 real sample datasets for each of the six KEGG pathways, along with XML files containing the network structure.
+
+
+code:
+
+The experimental code for this study, with relatively detailed comments included in each Python file
+
 
 How to use:
 
