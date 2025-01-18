@@ -1,11 +1,11 @@
 '''
-    The purpose of this program is to Visualizing the complex regulation network with detailed information
+The purpose of this program is to Visualizing the complex regulation network with detailed information
 
-    The specific process is roughly divided into the following five steps:
-    1. Get the data of the network graph: ① use pd.read_csv() to read the data of the nodes and edges in the network graph,
+The specific process is roughly divided into the following five steps:
+1. Get the data of the network graph: ① use pd.read_csv() to read the data of the nodes and edges in the network graph,
 and then save it to list; ② use ET.parse() to parse the xml file, and then get the names and types of the nodes, the start and
 end points of the edges and the types, and then save it to dictionary and list, respectively.
-    2. Assign values to the relevant attributes of nodes and edges in the network graph: use the nx.MultiDiGraph() method to
+2. Assign values to the relevant attributes of nodes and edges in the network graph: use the nx.MultiDiGraph() method to
 create the network graph, and then assign values to various attributes of nodes and edges in G.nodes() and G.edges().① For nodes
 the main attributes of prediction and node type are assigned, where in node type, gene is specified as rectangle, compound as
 oval, and cell as circle. In the node color, through the mcolors.LinearSegmentedColormap() method to map the node's prediction
@@ -15,18 +15,19 @@ edge for the green ordinary arrow, binding/association type of edge for the blac
 gray straight line, secretion type of edge for the green ordinary arrow(secretion is activation in another sense, so it is also
 indicated here by a plain green arrow), in addition to the For edges with the INDIRECT keyword in the type description,
 the dotted line is used.
-    3. Custom functions for drawing edges and nodes: ① for nodes: use patches.Rectangle(), patches.Circle() and patches.Ellipse() to
+3. Custom functions for drawing edges and nodes: ① for nodes: use patches.Rectangle(), patches.Circle() and patches.Ellipse() to
 draw three different types of nodes; ② for edges: use ax.plot() to draw T-arrows, ax.annotate() to draw normal arrows and lines.
 Use the ax.text() method to display non-1 prediction values to the corresponding edges.
-    4. draw network diagram: Use the two functions customized in step 3 for drawing nodes and edges to draw the pathway network
+4. draw network diagram: Use the two functions customized in step 3 for drawing nodes and edges to draw the pathway network
 graph, use ax.set_xlim(), ax.set_ylim() method to adjust the position of the pathway network diagram to make the overall look more beautiful.
-    5. Drawing notes: here for the drawing of notes in order to explain the various types of edges, the use of lines.Line2D () to draw
+5. Drawing notes: here for the drawing of notes in order to explain the various types of edges, the use of lines.Line2D () to draw
 a variety of arrows on behalf of the edge, the use of fig.add_axes () method to adjust the notes to the appropriate location so that
 the overall look of a more coordinated.
 
-    csv_file1: Used to store the node's prediction value
-    csv_file2: Used to store the weights of the edges
-    tree: Structures used to store network diagrams, includes various attribute values for nodes and edges
+File Introduction：
+csv_file1: Used to store the node's prediction value
+csv_file2: Used to store the weights of the edges
+tree: Structures used to store network diagrams, includes various attribute values for nodes and edges
 '''
 
 import xml.etree.ElementTree as ET
@@ -38,8 +39,8 @@ import numpy as np
 import matplotlib.colors as mcolors
 import matplotlib.lines as lines
 
-csv_file1 = r'mean_a_closest_100_1_virtual-T-RA16.csv'
-csv_file2 = r'mean_a_closest_100_1_virtual-T-RA16.csv'
+csv_file1 = r'../data/mean_a_closest_100_1_virtual-T-RA16.csv'
+csv_file2 = r'../data/mean_a_closest_100_1_virtual-T-RA16.csv'
 csv1 = pd.read_csv(csv_file1, header=None)
 csv2 = pd.read_csv(csv_file2)
 
@@ -62,7 +63,7 @@ for i in range(0, 240):  # -1
 print(edge_weight)
 
 # Parsing XML files
-tree = ET.parse(r'hsa04660-T-cell-draw.xml')
+tree = ET.parse(r'../data/hsa04660-T-cell-draw.xml')
 root = tree.getroot()
 
 # Create an empty multimap
