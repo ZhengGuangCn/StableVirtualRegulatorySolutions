@@ -6,7 +6,7 @@
 import pandas as pd
 import numpy as np
 
-data = pd.read_excel('T-RA16.xlsx')
+data = pd.read_excel('../data/T-RA16.xlsx')
 # Input layer data and output layer data for real samples.
 data = pd.DataFrame(data)
 data = data.T
