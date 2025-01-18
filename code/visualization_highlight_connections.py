@@ -1,15 +1,16 @@
 """
-    The following code visualizes the N connections with the largest regulatory differences
+The following code visualizes the N connections with the largest regulatory differences
 
-    csvreader3: In csvreader3, the data records the diseased model solution and the healthy model solution.
+File Introduction:
+csvreader3: In csvreader3, the data records the diseased model solution and the healthy model solution.
             It calculates the absolute value of the relative difference, ABS((diseased model weight - healthy model weight) / healthy model weight).
             This set of values represents the regulatory difference for each connection between the diseased and healthy models.
             The larger the value, the greater the difference in that connection between the diseased and healthy models.
-    csvreader4: In csvreader4, the data records the layer outputs of the diseased model and the healthy model.
+csvreader4: In csvreader4, the data records the layer outputs of the diseased model and the healthy model.
             It calculates the absolute value of the relative difference, ABS((diseased model layer output - healthy model layer output) / healthy model layer output).
             This set of values represents the difference for each node between the diseased and healthy models.
             The larger the value, the greater the difference in that node between the diseased and healthy models.
-    tree: Structures used to store network diagrams, includes various attribute values for nodes and edges
+tree: Structures used to store network diagrams, includes various attribute values for nodes and edges
 """
 import xml.etree.ElementTree as ET
 import networkx as nx
@@ -22,8 +23,8 @@ import matplotlib.lines as lines
 from matplotlib.lines import Line2D
 from matplotlib.patches import FancyArrow
 
-csvreader3 = pd.read_excel('subgraph-final-RA-HE-mean-100.xlsx')
-csvreader4 = pd.read_csv('mean_o-RA-HE-mean-100.csv',header=None)
+csvreader3 = pd.read_excel('../data/subgraph-final-RA-HE-mean-100.xlsx')
+csvreader4 = pd.read_csv('../data/mean_o-RA-HE-mean-100.csv',header=None)
 csvreader4 = pd.DataFrame(csvreader4)
 csvreader4 = csvreader4.T
 
@@ -38,7 +39,7 @@ for i in range(0, 193):
 print(prediction)
 
 # Parse the XML file
-tree = ET.parse(r'hsa04660-T-cell-draw.xml')
+tree = ET.parse(r'../data/hsa04660-T-cell-draw.xml')
 # Note that the XML file here is different from the one used during training.
 # The XML file used for training has an additional layers element, and the layer structure is at the next level under layers
 root = tree.getroot()
@@ -317,5 +318,5 @@ border = patches.Rectangle(
     transform=fig.transFigure  # Use the coordinates of the main image
 )
 fig.add_artist(border)
-plt.savefig(f'Top {len(top_30_percent_edges)} varied regulations of Th17 cell differentiation process between RA patients and healthy controls-blue.png', dpi=300)  # 保存图形，提高分辨率
+plt.savefig(f'../data/Top {len(top_30_percent_edges)} varied regulations of Th17 cell differentiation process between RA patients and healthy controls-blue.png', dpi=300) 
 plt.show()
