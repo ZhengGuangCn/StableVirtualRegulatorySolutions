@@ -95,8 +95,8 @@ mean_a_50 = common_df_a_50.mean(axis=0)
 mean_a_10 = common_df_a_10.mean(axis=0)
 mean_a_3 = common_df_a_3.mean(axis=0)
 mean_a_1 = common_df_a_1.mean(axis=0)
-mean_a_mean = pd.concat([mean_a_10, mean_a_3, mean_a_1], axis=1)
-mean_a_mean.to_csv('mean_a_closest_100_1_virtual-T-RA16.csv', index=False)
+mean_a_mean = pd.concat([mean_a_100, mean_a_50, mean_a_10, mean_a_3, mean_a_1], axis=1)
+mean_a_mean.to_csv('../data/mean_a_closest_100_1_virtual-T-RA16.csv', index=False)
 
 # bias
 mean_b_300 = common_df_b_300.mean(axis=0)
@@ -107,7 +107,7 @@ mean_b_10 = common_df_b_10.mean(axis=0)
 mean_b_3 = common_df_b_3.mean(axis=0)
 mean_b_1 = common_df_b_1.mean(axis=0)
 mean_b_mean = pd.concat([mean_b_10, mean_b_3, mean_b_1], axis=1)
-mean_b_mean.to_csv('mean_b_closest_100_1_virtual-T-RA16.csv', index=False)
+mean_b_mean.to_csv('../data/mean_b_closest_100_1_virtual-T-RA16.csv', index=False)
 
 # outputs
 mean_o_300 = common_df_o_300.mean(axis=0)
@@ -119,4 +119,4 @@ mean_o_3 = common_df_o_3.mean(axis=0)
 mean_o_1 = common_df_o_1.mean(axis=0)
 mean_o_mean = pd.concat([mean_o_10, mean_o_3, mean_o_1], axis=1)
 mean_o_mean = mean_o_mean.T
-mean_o_mean.to_csv('mean_c_closest_100_1_virtual-T-RA16.csv', index=False)
+mean_o_mean.to_csv('../data/mean_c_closest_100_1_virtual-T-RA16.csv', index=False)
