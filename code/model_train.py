@@ -1,19 +1,19 @@
 """
-    The following programs are used to train the model, obtain the model parameters, training loss, and the model's outputs.
+The following programs are used to train the model, obtain the model parameters, training loss, and the model's outputs.
 
+First, a fully connected neural network is constructed based on the reconstructed XML file. Since the training network we use is fully connected,
+but the actual regulatory network is sparse, it is necessary to initialize the network connection weights before starting training by setting the weights of nonexistent connections to 0.
+The training data used by the network is the augmented data generated in the data_extend.py file.
+The targets_data contains the node values of each layer of real samples. By augmenting the input of these real samples and using them for network training, the outputs of each layer in the network are forced to approximate targets_data.
+This approach enables the network to learn the implicit information in the regulatory pathways.
+In every training iteration, the connection weights must be constrained to ensure they adhere to the regulatory network structure. Otherwise, the network would train itself into a fully connected structure.
+After training each model, the input data of real samples in targets_data is fed into the network to obtain the network's predicted values. Finally, each trained model is saved for subsequent analysis.
 
-    First, a fully connected neural network is constructed based on the reconstructed XML file. Since the training network we use is fully connected,
-    but the actual regulatory network is sparse, it is necessary to initialize the network connection weights before starting training by setting the weights of nonexistent connections to 0.
-    The training data used by the network is the augmented data generated in the data_extend.py file.
-    The targets_data contains the node values of each layer of real samples. By augmenting the input of these real samples and using them for network training, the outputs of each layer in the network are forced to approximate targets_data.
-    This approach enables the network to learn the implicit information in the regulatory pathways.
-    In every training iteration, the connection weights must be constrained to ensure they adhere to the regulatory network structure. Otherwise, the network would train itself into a fully connected structure.
-    After training each model, the input data of real samples in targets_data is fed into the network to obtain the network's predicted values. Finally, each trained model is saved for subsequent analysis.
-
-    xml_path: location of the refactored xml file,The new XML file contains information about the layers, including the layer identifiers, layer numbers, and details about each layer's nodes.
+File Introduction:
+xml_path: location of the refactored xml file,The new XML file contains information about the layers, including the layer identifiers, layer numbers, and details about each layer's nodes.
             For the nodes, it includes their names, IDs, and types. Additionally, it provides information about the connections, specifying the source and target nodes for each connection, as well as the type of connection.
-    data_path: The training data used by the network is the augmented data generated in the data_extend.py file, which includes both the network's input and output.
-    targets_data: The targets_data contains the node values of each layer of real samples. By augmenting the input of these real samples and using them for network training, the outputs of each layer in the network are forced to approximate targets_data.
+data_path: The training data used by the network is the augmented data generated in the data_extend.py file, which includes both the network's input and output.
+targets_data: The targets_data contains the node values of each layer of real samples. By augmenting the input of these real samples and using them for network training, the outputs of each layer in the network are forced to approximate targets_data.
             This approach enables the network to learn the implicit information in the regulatory pathways.
 
 """
@@ -213,7 +213,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # Network structure initialisation and loading
-xml_path = 'hsa04660-T-cell.xml'   # location of the refactored xml file
+xml_path = '../data/hsa04660-T-cell.xml'   # location of the refactored xml file
 layer_nodes, edge_info = load_network_structure(xml_path)
 num_nodes_per_layer = [len(layer) for layer in layer_nodes]
 
@@ -221,7 +221,7 @@ net = NeuralNetwork(num_nodes_per_layer).to(device)
 apply_custom_initialization(net, edge_info, layer_nodes, num_nodes_per_layer)
 
 # load train data
-data_path = 'T-RA16-train.csv'
+data_path = '../data/T-RA16-train.csv'
 data = pd.read_csv(data_path)
 inputs = data.iloc[:, :12].values   # input data
 outputs = data.iloc[:, 12:].values  # output data
@@ -239,7 +239,7 @@ optimizer = optim.Adam(net.parameters(), lr=0.01)
 criterion = nn.MSELoss()
 
 # Read target data
-targets_data = pd.read_excel('T-real_samples.xlsx')
+targets_data = pd.read_excel('../data/T-real_samples.xlsx')
 # Here is the real data that the network nodes need to approximate during the training phase
 target_values = targets_data.iloc[12:, 2].values
 target_values = pd.to_numeric(target_values, errors='coerce')  # Convert non-numeric values to NaN
