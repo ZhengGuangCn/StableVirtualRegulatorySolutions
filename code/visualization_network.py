@@ -290,7 +290,7 @@ def draw_edges(ax, pos, edges, node_width, node_height):
             # Compute the direction vector perpendicular to the edge
             dx, dy = arrow_end[0] - arrow_start[0], arrow_end[1] - arrow_start[1]
             norm = (dx ** 2 + dy ** 2) ** 0.5
-            dx, dy = dx / norm, dy / norm  # 单位化
+            dx, dy = dx / norm, dy / norm 
 
             # Draw T-arrows perpendicular to the edge to reduce the offset
             perp_dx, perp_dy = -dy, dx
@@ -330,7 +330,7 @@ def draw_edges(ax, pos, edges, node_width, node_height):
             ax.text((start_pos[0] + end_pos[0]) / 2, (start_pos[1] + end_pos[1]) / 2 + 0.015, weight_label,
                     horizontalalignment='center', verticalalignment='center', fontsize=3, color=data['color'],
                     fontweight='bold',
-                    rotation_mode='anchor', rotation=angle)  # 粗体
+                    rotation_mode='anchor', rotation=angle) 
 
 # Use custom functions to draw edges
 draw_edges(ax, pos, G.edges(data=True), node_width, node_height)
@@ -433,10 +433,10 @@ for i in range(num_arrows):
 
         # Define the vertices at the top of the T-arrow (in clockwise order)
         vertices = [
-            (x_start + height - 0.67 + 0.16 + 0.08 + 0.62, y_start + width + 0.01),  # 右上角
-            (x_start + height - 0.67 + 0.16 + 0.08 + 0.62, y_start - width - 0.01),  # 右下角
-            (x_start + height - 0.7 + 0.16 + 0.08 + 0.62, y_start - width - 0.01),  # 左下角
-            (x_start + height - 0.7 + 0.16 + 0.08 + 0.62, y_start + width + 0.01)  # 左上角
+            (x_start + height - 0.67 + 0.16 + 0.08 + 0.62, y_start + width + 0.01), 
+            (x_start + height - 0.67 + 0.16 + 0.08 + 0.62, y_start - width - 0.01), 
+            (x_start + height - 0.7 + 0.16 + 0.08 + 0.62, y_start - width - 0.01),  
+            (x_start + height - 0.7 + 0.16 + 0.08 + 0.62, y_start + width + 0.01)  
         ]
 
         # Create polygons to represent the top of a T-arrow
@@ -471,4 +471,4 @@ border = patches.Rectangle(
 fig.add_artist(border)
 
 # Save Picture
-plt.savefig('T-cell(HE).png', format='png', dpi=300)
+plt.savefig('../data/T-cell(HE).png', format='png', dpi=300)
