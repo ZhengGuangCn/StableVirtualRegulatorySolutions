@@ -1,7 +1,8 @@
 '''
-    Since the number of real samples is too small, the data needs to be expanded by adding a Gaussian noise of 0.1 to the real samples and expanding to 10,000 samples
+Since the number of real samples is too small, the data needs to be expanded by adding a Gaussian noise of 0.1 to the real samples and expanding to 10,000 samples
 
-    data: The real sample input values and output values used for data augmentation.
+File Induction:
+data: The real sample input values and output values used for data augmentation.
 '''
 import pandas as pd
 import numpy as np
@@ -26,6 +27,6 @@ def augment_data(x,num_augments=9999):  # Here num_augments are multiples of the
 
 data_rad = augment_data(rad)
 data_rad = pd.DataFrame(data_rad)
-data_rad.to_csv('T-RA16-train.csv', index=False)
+data_rad.to_csv('../data/T-RA16-train.csv', index=False)
 
 
