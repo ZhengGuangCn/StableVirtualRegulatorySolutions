@@ -6,11 +6,17 @@ Given the sparsity of connections in the pathway networks, we introduced strong 
 Finally, we employed a virtual mean solution in the trained model to validate the method. The results demonstrate that our approach achieves excellent predictive performance.
 
 Dependencies:
+
 python 3.8;
+
 numpy 1.20.1;
+
 scikit-learn 0.24.1;
+
 scipy 1.6.2;
+
 torch 1.10.2;
+
 R 4.2.3.
 
 How to use:
