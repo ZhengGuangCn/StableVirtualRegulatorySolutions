@@ -10,11 +10,11 @@ Finally, we employed a virtual mean solution in the trained model to validate th
 
 Dependencies:
 
-python 3.8;
-numpy 1.20.1;
-scikit-learn 0.24.1;
-scipy 1.6.2;
-torch 1.10.2;
+python 3.8; 
+numpy 1.20.1; 
+scikit-learn 0.24.1; 
+scipy 1.6.2; 
+torch 1.10.2; 
 R 4.2.3.
 
 
@@ -33,14 +33,14 @@ The folder stores 20 real sample datasets for each of the six KEGG pathways, alo
 
 code:
 
-The experimental code for this study, with relatively detailed comments included in each Python file
+The experimental code for this study, with relatively detailed comments included in each Python file.
 
 
 
 How to use:
 
 1. data_extend.py:
-   Since the number of real samples is too small, the data needs to be expanded by adding a Gaussian noise of 0.1 to the real samples and expanding to 10,000 samples
+   Since the number of real samples is too small, the data needs to be expanded by adding a Gaussian noise of 0.1 to the real samples and expanding to 10,000 samples.
    
    data: The real sample input values and output values used for data augmentation.
 
@@ -89,7 +89,7 @@ How to use:
    
    bias: The biases of each node in the final model solution.
    
-   input_file: The values of each real sample, including input node values and values of nodes in each layer, are used as follows: the input node values are fed into the model to obtain the predicted values of nodes in                 each layer, while the values of nodes in each layer are used to validate the model's predictive performance.
+   input_file: The values of each real sample, including input node values and values of nodes in each layer, are used as follows: the input node values are fed into the model to obtain the predicted values of nodes in each layer, while the values of nodes in each layer are used to validate the model's predictive performance.
 
 
 4. mean_solution.py:
