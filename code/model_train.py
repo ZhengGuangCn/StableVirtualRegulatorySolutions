@@ -292,16 +292,16 @@ def train_model():
             enforce_constraints(net, edge_info, layer_nodes, num_nodes_per_layer)  # Enforcement of constraints
 
         # make_weights_positive(net)
-        filename = 'final_weights.csv'
+        filename = '../data/final_weights.csv'
         print_weights_and_biases(net, filename)
         x0 = targets_data.iloc[:12, 2].values  # Network inputs used to validate as well as the effect of the completed trained model
         x0 = torch.tensor(x0, dtype=torch.float32).to(device)
         print(x0)
         _, outputs = net(x0.unsqueeze(0))
-        record_layer_outputs(outputs, 'layer_outputs.csv')   # Saves the output values of each layer of the network
+        record_layer_outputs(outputs, '../data/layer_outputs.csv')   # Saves the output values of each layer of the network
 
         # Save each model's loss to a file
-        with open('layer_losses.csv', 'a', newline='') as file:
+        with open('../data/layer_losses.csv', 'a', newline='') as file:
             writer = csv.writer(file)
             writer.writerow([f'{loss.item()}'])
 
@@ -312,7 +312,7 @@ def train_model():
         plt.show()
 
         # Save each network model
-        torch.save(net, "T-RA16_train_{}.pth".format(repeat))
+        torch.save(net, "../data/T-RA16_train_{}.pth".format(repeat))
         print("Model saved")
 
 torch.backends.cudnn.benchmark = True
