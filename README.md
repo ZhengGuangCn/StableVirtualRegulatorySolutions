@@ -41,6 +41,7 @@ How to use:
 
 1. data_extend.py:
    Since the number of real samples is too small, the data needs to be expanded by adding a Gaussian noise of 0.1 to the real samples and expanding to 10,000 samples
+   
    data: The real sample input values and output values used for data augmentation.
 
 
@@ -59,7 +60,9 @@ How to use:
    xml_path: location of the refactored xml file,The new XML file contains information about the layers, including the layer identifiers, layer numbers, and details about each layer's nodes. 
              For the nodes, it includes their names, IDs, and types. Additionally, it provides information about the connections, specifying the source and target nodes for each connection, as well as the type of         
              connection.
+   
    data_path: The training data used by the network is the augmented data generated in the data_extend.py file, which includes both the network's input and output.
+   
    targets_data: The targets_data contains the node values of each layer of real samples. By augmenting the input of these real samples and using them for network training, the outputs of each layer in the network are 
              forced to approximate targets_data. This approach enables the network to learn the implicit information in the regulatory pathways.
 
@@ -81,8 +84,11 @@ How to use:
    For example, if we use the model solution for disease samples, a smaller distance for a real sample after input suggests a higher probability that the real sample is a disease sample.
    
    model_path: The reference model is used to provide the positions of non-zero weights in the network. We replace the parameters of this reference model one by one with the parameters from the final model solution.
+   
    weight: The weights of all connections in the final model solution are all non-zero.
+   
    bias: The biases of each node in the final model solution.
+   
    input_file: The values of each real sample, including input node values and values of nodes in each layer, are used as follows: the input node values are fed into the model to obtain the predicted values of nodes in                 each layer, while the values of nodes in each layer are used to validate the model's predictive performance.
 
 
@@ -94,7 +100,9 @@ How to use:
    Subsequently, compute the mean of the parameters from the top N models with the smallest loss values as a relatively stable virtual solution and write it to a new file.
    
    df: File storing non-zero weights and biases
+   
    df_outputs: A file used to store layer outputs
+   
    df_loss: A file used to store the loss values of each model
 
 
@@ -105,10 +113,12 @@ How to use:
            It calculates the absolute value of the relative difference, ABS((diseased model weight - healthy model weight) / healthy model weight).
            This set of values represents the regulatory difference for each connection between the diseased and healthy models.
            The larger the value, the greater the difference in that connection between the diseased and healthy models.
+   
    csvreader4: In csvreader4, the data records the layer outputs of the diseased model and the healthy model.
            It calculates the absolute value of the relative difference, ABS((diseased model layer output - healthy model layer output) / healthy model layer output).
            This set of values represents the difference for each node between the diseased and healthy models.
            The larger the value, the greater the difference in that node between the diseased and healthy models.
+   
    tree: Structures used to store network diagrams, includes various attribute values for nodes and edges
 
 
@@ -139,7 +149,9 @@ How to use:
    the overall look of a more coordinated.
    
    csv_file1: Used to store the node's prediction value
+   
    csv_file2: Used to store the weights of the edges
+   
    tree: Structures used to store network diagrams, includes various attribute values for nodes and edges
 
 
