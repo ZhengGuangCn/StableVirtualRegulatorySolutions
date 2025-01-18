@@ -3,7 +3,11 @@
 
     First, read the files that record connection weights, node biases, output results, and loss values. The values in these files correspond to each other in the order of the trained models.
     Then, sort the loss values in ascending order and retrieve the corresponding indices to filter the connection weights, node biases, and output results in the same order.
-    Subsequently, compute the mean of the parameters from the top N models with the smallest loss values as a relatively stable virtual solution and write it to a new file.
+    Subsequently, compute the mean of the parameters from the top N models with the smallest loss values as a relatively stable virtual solution and write it to a new file
+    
+    df: File storing non-zero weights and biases
+    df_outputs: A file used to store layer outputs
+    df_loss: A file used to store the loss values of each model
 """
 
 import pandas as pd
