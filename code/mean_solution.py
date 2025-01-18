@@ -1,20 +1,21 @@
 """
-    The following code selects the models with the top-ranked losses, calculates the average of their parameters as the mean solution, and writes it to a new file.
+The following code selects the models with the top-ranked losses, calculates the average of their parameters as the mean solution, and writes it to a new file.
 
-    First, read the files that record connection weights, node biases, output results, and loss values. The values in these files correspond to each other in the order of the trained models.
-    Then, sort the loss values in ascending order and retrieve the corresponding indices to filter the connection weights, node biases, and output results in the same order.
-    Subsequently, compute the mean of the parameters from the top N models with the smallest loss values as a relatively stable virtual solution and write it to a new file
-    
-    df: File storing non-zero weights and biases
-    df_outputs: A file used to store layer outputs
-    df_loss: A file used to store the loss values of each model
+First, read the files that record connection weights, node biases, output results, and loss values. The values in these files correspond to each other in the order of the trained models.
+Then, sort the loss values in ascending order and retrieve the corresponding indices to filter the connection weights, node biases, and output results in the same order.
+Subsequently, compute the mean of the parameters from the top N models with the smallest loss values as a relatively stable virtual solution and write it to a new file
+
+File Introduction:
+df: File storing non-zero weights and biases
+df_outputs: A file used to store layer outputs
+df_loss: A file used to store the loss values of each model
 """
 
 import pandas as pd
 import numpy as np
 
 # load data
-df = pd.read_csv('final_weights-T-RA16.csv')
+df = pd.read_csv('../data/final_weights-T-RA16.csv')
 df = df.apply(pd.to_numeric, errors='coerce')
 df = pd.DataFrame(df)
 df = df.T
@@ -28,14 +29,14 @@ df_b = df_b.iloc[:,:181]  # The number of biases for each model, which correspon
 df_b = df_b.reset_index(drop=True)
 print(df_b)
 
-df_outputs = pd.read_csv('processed_data_file-T-RA16.csv',header=None)
+df_outputs = pd.read_csv('../data/processed_data_file-T-RA16.csv',header=None)
 df_outputs = df_outputs.apply(pd.to_numeric, errors='coerce')
 df_outputs = pd.DataFrame(df_outputs)
 # df_outputs = df_outputs.iloc[0::2]
 df_outputs = df_outputs.reset_index(drop=True)
 print(df_outputs)
 
-df_loss = pd.read_csv('layer_losses.csv',header=None)
+df_loss = pd.read_csv('../data/layer_losses.csv',header=None)
 df_loss = df_loss.apply(pd.to_numeric, errors='coerce')
 df_loss = pd.DataFrame(df_loss)
 print(df_loss)
